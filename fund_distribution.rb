@@ -25,7 +25,7 @@ class Participant
 end
 
 # @param participants [Array<Participant>]
-# @params funding [Integer]
+# @param funding [Integer]
 # @return [Hash] the distributions to the participants
 def distribute_fund(participants, funding)
   loop do
